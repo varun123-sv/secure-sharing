@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "build",
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": false,
+    "declaration": true,
+    "lib": ["es6", "dom"]
+  },
+  "files": [
+    "src/oprf.ts"
+  ],
+  "include": [
+    "src/oprf.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "build",
+    "test/oprf.spec.ts"
+  ]
+}
+
